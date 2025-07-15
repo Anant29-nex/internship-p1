@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <main className="container md:w-screen">
-      <header className="max-w-[1440px] m-full pt-[30px] pl-25 h-[514px] inline-block">
+    <main>
+      <header className="p-8 max-w-6xl mx-auto">
         <section className="grid grid-rows-3  bg-gray-900 text-white border-t-4 rounded-4xl">
           <nav className="max-w-[1440px] w-full mx-auto pt-[30px]">
             <div className=" h-5  flex items-center justify-between px-10 ">
@@ -51,7 +51,7 @@ export default function Footer() {
           </nav>
 
           <section className="grid grid-cols-2 pt-1 pl-15 pr-15 pb-15 h-40">
-            <div className="pl-15 pb-5">
+            <div className="pl-5 pb-5">
               <h1 className="bg-lime-300  text-black w-29 px-2 font-mono rounded-xl">
                 Contact us:
               </h1>
@@ -63,18 +63,18 @@ export default function Footer() {
               </h5>
             </div>
 
-            <form className=" flex justify-center py-15 bg-gray-800 rounded-2xl px-5 font-mono ">
+            <form className=" flex  py-15 bg-gray-800 rounded-2xl px-5 font-mono ">
               <label>
                 <section className="grid grid-cols-2 gap-3 h-auto">
                   <input
                     type="text"
                     placeholder="Email"
-                    className="border-white bg-gray-800 border-2 px-8 py-2 rounded-2xl w-60"
+                    className="border-white bg-gray-800 border-2 px-4 py-2 rounded-2xl w-50"
                   />
 
                   <button
                     type="button"
-                    className="flex justify-center w-60 h-[68px] pt-5 bg-lime-300  text-black rounded-2xl"
+                    className="flex justify-center w-50 h-[68px] pt-5 bg-lime-300  text-black rounded-2xl"
                   >
                     Subscribe to news
                   </button>

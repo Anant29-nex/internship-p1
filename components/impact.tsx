@@ -1,9 +1,9 @@
 export default function Impact() {
   return (
-    <main className="container md:w-screen">
-      <header className="max-w-[1440px] w-full mx-auto pt-30 pl-25 inline-block">
+    <main>
+      <header className="p-8 max-w-6xl mx-auto">
         <div className="  flex gap-6 pb-15">
-          <h1 className="bg-lime-400 font-semibold text-3xl px-4 py-1 inline-block rounded-xl">
+          <h1 className="bg-lime-400 font-semibold text-3xl py-1 inline-block rounded-xl">
             Our Impact in Numbers
           </h1>
           <h5 className=" font-light px-4">
@@ -12,7 +12,7 @@ export default function Impact() {
           </h5>
         </div>
 
-        <section className="grid  grid-cols-5  gap-4 pl-5 items-center border-t-2 rounded-md p-8 ">
+        <section className="grid  grid-cols-5  gap-4  items-center border-t-2 rounded-md p-8 ">
           <div className="py-5 border-r-2 ">
             <h1 className="text-3xl font-mono font-bold  ">8+</h1>
             <h5>Years of Experince</h5>

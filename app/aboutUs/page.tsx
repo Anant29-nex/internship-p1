@@ -2,15 +2,14 @@ import Awards from "@/components/awardsandreco";
 import Container1 from "@/components/container1";
 import Container2 from "@/components/container2";
 import CoreValues from "@/components/corevalue";
-import Footer from "@/components/footer";
 import Impact from "@/components/impact";
 import Journey from "@/components/journey";
 
 export default function aboutus() {
   return (
-    <main className="container flex flex-col">
+    <main>
       {/* From here main block starts!!! */}
-      <header className="max-w-[1440px] w-full mx-auto pt-[30px] pl-25 ">
+      <header className="p-8 max-w-6xl mx-auto">
         <section className="mt-10 py-15 grid md:grid-cols-2 justify-items-center items-center mb-6 bg-gray-300/25 rounded-2xl">
           <div className=" w-3/4">
             <img
@@ -56,10 +55,6 @@ export default function aboutus() {
       {/* From here  container2 block starts!!! */}
       <Container2 />
       {/*  container2 block ends here */}
-
-      {/* From here  container3 block starts!!! */}
-      <Footer />
-      {/*  container3 block ends here */}
     </main>
   );
 }

@@ -1,7 +1,7 @@
 export default function Container2() {
   return (
-    <main className="container md:w-screen">
-      <header className="max-w-[1440px] w-full pt-30 pl-25 pb-10 inline-block">
+    <main>
+      <header className="p-8 max-w-6xl mx-auto">
         <section className="grid grid-cols-2 bg-lime-300/85 border-1 border-b-4 rounded-4xl">
           <div className="pl-15 py-15 ">
             <h1 className="text-4xl font-medium pb-10">Join Our Team</h1>

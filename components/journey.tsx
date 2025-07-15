@@ -1,9 +1,9 @@
 export default function Journey() {
   return (
-    <main className="container md:w-screen">
-      <header className="max-w-[1440px] w-full mx-auto pt-40  inline-block">
-        <div className="  flex gap-6 pb-15 pl-25">
-          <h1 className="bg-lime-400 font-semibold text-3xl px-4 py-1 inline-block rounded-xl">
+    <main>
+      <header className="p-8 max-w-6xl mx-auto">
+        <div className="  flex gap-6 pb-15 ">
+          <h1 className="bg-lime-400 font-semibold text-3xl  py-1 inline-block rounded-xl">
             Our Journey
           </h1>
           <h5 className=" font-light px-4">

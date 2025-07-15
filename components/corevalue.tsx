@@ -1,8 +1,8 @@
 export default function CoreValues() {
   return (
-    <main className="container md:w-screen">
-      <header className="max-w-[1440px] w-full mx-auto pt-30  inline-block">
-        <div className="  flex gap-6 pl-25 ">
+    <main>
+      <header className="p-8 max-w-6xl mx-auto">
+        <div className="  flex gap-6 ">
           <h1 className="bg-lime-400 font-semibold text-3xl px-4 py-1 inline-block rounded-2xl">
             Core Values
           </h1>
@@ -11,7 +11,7 @@ export default function CoreValues() {
           </h5>
         </div>
 
-        <section className="px-25 py-15 grid grid-rows-2 gap-6">
+        <section className=" py-15 grid grid-rows-2 gap-6">
           <section className="grid grid-cols-2 gap-6  ">
             <div className="flex justify-center flex-col border-1 border-b-4 rounded-4xl py-5 px-8 ">
               <h1 className="border-b-1 text-2xl pb-5 font-bold font-mono ">

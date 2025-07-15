@@ -1,8 +1,8 @@
 export default function Awards() {
   return (
-    <main className="container md:w-screen">
-      <header className="max-w-[1440px] w-full mx-auto pt-30 inline-block">
-        <div className="  flex gap-6 pl-25 ">
+    <main>
+      <header className="p-8 max-w-6xl mx-auto">
+        <div className="  flex gap-6 ">
           <h1 className="bg-lime-400 font-semibold text-3xl px-4 py-1 inline-block rounded-2xl">
             Awards and Recognition
           </h1>
@@ -12,7 +12,7 @@ export default function Awards() {
           </h5>
         </div>
 
-        <section className="grid grid-cols-4 gap-3 px-25 py-10 ">
+        <section className="grid grid-cols-4 gap-3 py-10 ">
           <div className="flex justify-center flex-col border-1 border-b-4 rounded-4xl py-8 px-8 bg-gray-100/50">
             <div>
               <img src="/images/enhanced1.png" />

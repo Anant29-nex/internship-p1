@@ -1,8 +1,8 @@
 export default function ContactUs() {
   return (
-    <main className="container md:w-screen">
-      <header className="max-w-[1440px] w-full mx-auto pt-[30px]">
-        <div className="flex gap-6 pl-25 ">
+    <main>
+      <header className="p-8 max-w-6xl mx-auto ">
+        <div className="flex gap-6  ">
           <h1 className="bg-lime-400 font-semibold text-3xl px-4 rounded-xl">
             Contact Us
           </h1>
@@ -11,9 +11,9 @@ export default function ContactUs() {
           </h5>
         </div>
 
-        <section className="pt-[60px] pb-[80px] px-[100px] ">
+        <section className="py-[60px] ">
           <section className=" grid grid-cols-2 gap-[40px] bg-gray-200 border-4 border-white rounded-4xl p-18">
-            <form>
+            <form className="pb-5">
               <label className="flex items-center gap-4 text-black cursor-pointer">
                 <input
                   type="radio"
@@ -41,7 +41,7 @@ export default function ContactUs() {
                 <br></br>
               </label>
 
-              <label className="pt-5">Email*</label>
+              <label className="pt-15">Email*</label>
               <br></br>
               <label>
                 <input

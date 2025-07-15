@@ -1,8 +1,8 @@
 export default function CaseStudies() {
   return (
-    <main className="container md:w-screen">
-      <header className="max-w-[1440px] w-full mx-auto pt-[30px]">
-        <div className="flex gap-6 pl-25  ">
+    <main>
+      <header className="p-8 max-w-6xl mx-auto">
+        <div className="flex gap-6   ">
           <h1 className="bg-lime-400 font-semibold text-3xl px-4 rounded-xl ">
             Case Studies
           </h1>
@@ -11,7 +11,7 @@ export default function CaseStudies() {
             through Our Case Studies
           </h5>
         </div>
-        <section className="px-20 py-5">
+        <section className=" py-5">
           <section className="grid grid-cols-1 lg:grid-cols-3 gap-8 bg-black/90 border-4 border-white rounded-4xl p-8">
             <div className="px-5 flex flex-col gap-4 border-r lg:border-r border-white">
               <p className="text-white">

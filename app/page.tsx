@@ -4,9 +4,9 @@ import Services from "@/components/services";
 
 export default function Home() {
   return (
-    <main className="container">
+    <main>
       {/* From here main block starts!!! */}
-      <header className="max-w-[1440px] w-full mx-auto pt-[30px] pl-25">
+      <header className="p-8 max-w-6xl mx-auto">
         <section className="mt-10 grid md:grid-cols-2 justify-items-center items-center mb-6">
           <div className="w-125">
             <h1 className="text-black font-mono tracking-tight text-5xl mb-4 ">
