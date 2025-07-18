@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Space_Grotesk } from "next/font/google";
+
 import Header from "@/components/navbar";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
@@ -8,6 +10,12 @@ import Footer from "@/components/footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // choose weights you need
+  variable: "--font-space-grotesk", // for Tailwind (optional)
 });
 
 const geistMono = Geist_Mono({
@@ -26,10 +34,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={spaceGrotesk.className}>
+      <body>
         <div className="p-8 max-w-6xl mx-auto">
           <Navbar />
           {children}

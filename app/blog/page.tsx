@@ -1,11 +1,13 @@
 import { NextResponse } from "next/server";
 import Insights from "@/components/insights";
-import BlogPage from "./[id]/page";
+import StatsGrid from "@/components/StatsGrid";
 
-export default async function POST(request: Request) {
-  const data = await request.json();
+import Link from "next/link";
 
-  return NextResponse.json(
+import BlogListPage from "./blog-list/page";
+
+export default function BlogPage() {
+  return (
     <main>
       {/* From here main block starts!!! */}
       <header className="p-8 max-w-6xl mx-auto ">
@@ -14,7 +16,7 @@ export default async function POST(request: Request) {
             <img className="inline-block" src="/images/illustration.png" />
           </div>
 
-          <div className="w-125 py-5 inline-block font-mono">
+          <div className="w-125 py-5 inline-block .">
             <h1 className="bg-gray-200 w-fit px-2 py-1 rounded-2xl text-gray-500 ">
               Marketing Strategies
             </h1>
@@ -32,6 +34,35 @@ export default async function POST(request: Request) {
       {/* Main block ends here */}
 
       {/*Page starts here */}
+      <nav className=" max-w-6xl mx-auto border-b-1 pb-5">
+        <div className="   flex items-center justify-between ">
+          <div className="flex items-center">
+            <img
+              src="/images/profile.png"
+              alt="logo"
+              className="w-10 h-10"
+            ></img>
+            <div className="grid grid-rows-2 pl-5">
+              <p className=" font-semibold text-lg">Sarah Kim</p>
+              <p className="text-sm">Content Creator</p>
+            </div>
+          </div>
+
+          <ul className="flex items-center gap-1">
+            <li>
+              <p className="text-gray-400 text-2xl">A</p>
+            </li>
+            <li>
+              <p className="text-xl font-semibold">A</p>
+            </li>
+            <li>
+              <p className="text-gray-200 text-lg">A</p>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <BlogListPage />
+      <StatsGrid />
 
       {/*Page ends here */}
 

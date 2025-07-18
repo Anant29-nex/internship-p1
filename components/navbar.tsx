@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="p-8 max-w-6xl mx-auto">
+    <nav className=" max-w-6xl mx-auto">
       <div className=" h-17  flex items-center justify-between px-10 ">
         <div>
           <img src="/images/Logo.png" alt="logo"></img>

@@ -14,23 +14,23 @@ export default function Impact() {
 
         <section className="grid  grid-cols-5  gap-4  items-center border-t-2 rounded-md p-8 ">
           <div className="py-5 border-r-2 ">
-            <h1 className="text-3xl font-mono font-bold  ">8+</h1>
+            <h1 className="text-3xl . font-bold  ">8+</h1>
             <h5>Years of Experince</h5>
           </div>
           <div className="py-5 border-r-2">
-            <h1 className="text-3xl font-mono font-bold">50+</h1>
+            <h1 className="text-3xl . font-bold">50+</h1>
             <h5>Experts</h5>
           </div>
           <div className="py-5 border-r-2">
-            <h1 className="text-3xl font-mono font-bold">100+</h1>
+            <h1 className="text-3xl . font-bold">100+</h1>
             <h5>Successful Campaigns</h5>
           </div>
           <div className="py-5 border-r-2">
-            <h1 className="text-3xl font-mono font-bold">20+</h1>
+            <h1 className="text-3xl . font-bold">20+</h1>
             <h5>Industry Awards</h5>
           </div>
           <div className="py-5 ">
-            <h1 className="text-3xl font-mono font-bold">500%</h1>
+            <h1 className="text-3xl . font-bold">500%</h1>
             <h5>ROI of our clients</h5>
           </div>
         </section>

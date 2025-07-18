@@ -6,7 +6,7 @@ export default function Awards() {
           <h1 className="bg-lime-400 font-semibold text-3xl px-4 py-1 inline-block rounded-2xl">
             Awards and Recognition
           </h1>
-          <h5 className="w-145 font-light font-mono">
+          <h5 className="w-145 font-light .">
             At Positivus, our commitment to excellence has been recognized by
             industry leaders. Here are some of our proudest achievements:
           </h5>
@@ -17,7 +17,7 @@ export default function Awards() {
             <div>
               <img src="/images/enhanced1.png" />
             </div>
-            <h1 className=" text-l pb-5  font-bold font-mono ">
+            <h1 className=" text-l pb-5  font-bold . ">
               Best Small Business Digital Marketing Agency of the Year
             </h1>
             <h5 className="pt-5 text-l">
@@ -30,7 +30,7 @@ export default function Awards() {
             <div>
               <img src="/images/enhanced2.png" />
             </div>
-            <h1 className="text-l pb-5 font-bold font-mono ">
+            <h1 className="text-l pb-5 font-bold . ">
               Innovative Website Design
             </h1>
             <h5 className="pt-5 text-l">
@@ -44,7 +44,7 @@ export default function Awards() {
             <div>
               <img src="/images/enhanced3.png" />
             </div>
-            <h1 className=" text-l pb-5 font-bold font-mono ">
+            <h1 className=" text-l pb-5 font-bold . ">
               Top Performing PPC Campaign of the Year
             </h1>
             <h5 className="pt-5 text-l">
@@ -57,7 +57,7 @@ export default function Awards() {
             <div>
               <img src="/images/enhanced4.png" />
             </div>
-            <h1 className="text-l pb-5 font-bold font-mono ">
+            <h1 className="text-l pb-5 font-bold . ">
               Expertise in Social Media Marketing
             </h1>
             <h5 className="pt-5 text-l">

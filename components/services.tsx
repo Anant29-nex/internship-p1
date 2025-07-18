@@ -6,7 +6,7 @@ export default function Services() {
           <h1 className="bg-lime-400 font-semibold text-3xl px-4 py-1 inline-block rounded-xl">
             Services
           </h1>
-          <h5 className="w-118 font-light">
+          <h5 className="w-130 font-light">
             At our digital marketing agency, we offer a range of services to
             help businesses grow and succeed online. These services include:
           </h5>

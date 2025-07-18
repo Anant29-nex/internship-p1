@@ -52,7 +52,7 @@ export default function Footer() {
 
           <section className="grid grid-cols-2 pt-1 pl-15 pr-15 pb-15 h-40">
             <div className="pl-5 pb-5">
-              <h1 className="bg-lime-300  text-black w-29 px-2 font-mono rounded-xl">
+              <h1 className="bg-lime-300  text-black w-29 px-2 . rounded-xl">
                 Contact us:
               </h1>
               <h5 className="pb-3 pt-3">Email:info@positivus.com</h5>
@@ -63,7 +63,7 @@ export default function Footer() {
               </h5>
             </div>
 
-            <form className=" flex  py-15 bg-gray-800 rounded-2xl px-5 font-mono ">
+            <form className=" flex  py-15 bg-gray-800 rounded-2xl px-5 . ">
               <label>
                 <section className="grid grid-cols-2 gap-3 h-auto">
                   <input

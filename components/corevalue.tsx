@@ -6,7 +6,7 @@ export default function CoreValues() {
           <h1 className="bg-lime-400 font-semibold text-3xl px-4 py-1 inline-block rounded-2xl">
             Core Values
           </h1>
-          <h5 className="w-65 font-light font-mono">
+          <h5 className="w-65 font-light .">
             At the heart of everything we do are our core values
           </h5>
         </div>
@@ -14,7 +14,7 @@ export default function CoreValues() {
         <section className=" py-15 grid grid-rows-2 gap-6">
           <section className="grid grid-cols-2 gap-6  ">
             <div className="flex justify-center flex-col border-1 border-b-4 rounded-4xl py-5 px-8 ">
-              <h1 className="border-b-1 text-2xl pb-5 font-bold font-mono ">
+              <h1 className="border-b-1 text-2xl pb-5 font-bold . ">
                 Client Success First
               </h1>
               <h5 className="pt-5 text-l">
@@ -25,7 +25,7 @@ export default function CoreValues() {
             </div>
             <section className="grid grid-cols-2 gap-6  border-1 border-b-4 rounded-4xl py-5 px-5">
               <div className="px-5 flex justify-center flex-col gap-4  ">
-                <p className="border-b-1 text-2xl pb-5 font-bold font-mono ">
+                <p className="border-b-1 text-2xl pb-5 font-bold . ">
                   Innovation
                 </p>
                 <div className="flex items-center">
@@ -44,7 +44,7 @@ export default function CoreValues() {
           <section className="grid grid-cols-2 gap-6  ">
             <section className="grid grid-cols-2 gap-6  border-1 border-b-4 rounded-4xl py-5 px-5">
               <div className="px-5 flex justify-center flex-col gap-4  ">
-                <p className="border-b-1 text-2xl pb-5 font-bold font-mono ">
+                <p className="border-b-1 text-2xl pb-5 font-bold . ">
                   Collaboration
                 </p>
                 <div className="flex items-center">
@@ -59,7 +59,7 @@ export default function CoreValues() {
               </div>
             </section>
             <div className="flex justify-center flex-col border-1 border-b-4 rounded-4xl py-5 px-7 ">
-              <h1 className="border-b-1 text-2xl pb-5 font-bold font-mono ">
+              <h1 className="border-b-1 text-2xl pb-5 font-bold . ">
                 Transperency
               </h1>
               <h5 className="pt-5 text-l">

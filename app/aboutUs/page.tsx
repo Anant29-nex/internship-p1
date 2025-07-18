@@ -19,7 +19,7 @@ export default function aboutus() {
           </div>
 
           <div className="w-125 py-5 inline-block">
-            <h1 className="text-black font-mono tracking-tight text-5xl mb-4 ">
+            <h1 className="text-black . tracking-tight text-5xl mb-4 ">
               Together for Success
             </h1>
             <h5 className="mb-8 text-xl">

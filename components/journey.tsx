@@ -17,7 +17,7 @@ export default function Journey() {
             <div className="pl-45 pt-10 font-bold  ">
               <h1 className="text-5xl">2019</h1>
             </div>
-            <div className=" w-140 bg-gray-900 text-white font-mono rounded-4xl py-10">
+            <div className=" w-140 bg-gray-900 text-white . rounded-4xl py-10">
               <h1 className="flex justify-center text-3xl pb-4">
                 The Beginning
               </h1>
@@ -35,7 +35,7 @@ export default function Journey() {
             <div className="pl-45 pt-10 font-bold  ">
               <h1 className="text-5xl">2021</h1>
             </div>
-            <div className=" w-100 bg-gray-900 text-white font-mono rounded-4xl py-10">
+            <div className=" w-100 bg-gray-900 text-white . rounded-4xl py-10">
               <h1 className="flex justify-center text-3xl pb-4">
                 Industry Recognition
               </h1>
@@ -50,7 +50,7 @@ export default function Journey() {
             <div className="pl-45 pt-10 font-bold">
               <h1 className="text-5xl">2023</h1>
             </div>
-            <div className="w-140 bg-gray-900 text-white font-mono rounded-4xl py-10">
+            <div className="w-140 bg-gray-900 text-white . rounded-4xl py-10">
               <h1 className="flex justify-center text-3xl pb-4">
                 Innovation and Growth
               </h1>
@@ -69,7 +69,7 @@ export default function Journey() {
             <div className="pl-45 pt-10 font-bold">
               <h1 className="text-5xl">2024</h1>
             </div>
-            <div className="w-100 bg-gray-900 text-white font-mono rounded-4xl py-10">
+            <div className="w-100 bg-gray-900 text-white . rounded-4xl py-10">
               <h1 className="flex justify-center text-3xl pb-4">
                 Leading the Future
               </h1>

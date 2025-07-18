@@ -12,9 +12,7 @@ export default function Container1() {
               "At Positivus, we believe that success is built on innovation,
               collaboration, and a relentless focus on delivering results."
             </h1>
-            <h5 className="font-mono text-l">
-              -John Smith, Founder of Positivus
-            </h5>
+            <h5 className=". text-l">-John Smith, Founder of Positivus</h5>
           </div>
         </section>
       </header>

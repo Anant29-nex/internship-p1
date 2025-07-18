@@ -9,7 +9,7 @@ export default function Home() {
       <header className="p-8 max-w-6xl mx-auto">
         <section className="mt-10 grid md:grid-cols-2 justify-items-center items-center mb-6">
           <div className="w-125">
-            <h1 className="text-black font-mono tracking-tight text-5xl mb-4 ">
+            <h1 className="text-black . tracking-tight text-5xl mb-4 ">
               Navigating the digital landscape for success
             </h1>
             <h5 className="mb-8">
