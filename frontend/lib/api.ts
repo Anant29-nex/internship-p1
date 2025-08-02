@@ -20,7 +20,6 @@ export async function loginUser(form: any) {
   const contentType = res.headers.get("content-type");
   if (contentType && contentType.includes("application/json")) {
     const data = await res.json();
-    // handle JSON
   } else {
     const text = await res.text();
     console.error("Non-JSON response:", text);
